@@ -1,5 +1,5 @@
 def find_all():
-    f=open('schedule.csv', 'r', encoding='UTF-8')
+    f=open('Recipes.csv', 'r', encoding='UTF-8')
     all_data=f.read().split('\n')
     # print(all_data)
     for i in range(len(all_data)-1):
